@@ -118,7 +118,7 @@
     .button_white:hover {
       background-color: #fcc304; }
   .button_blue {
-    background-color: #2F80ED;
+    background-color: #2f80ed;
     color: white;
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s; }
@@ -218,8 +218,10 @@
       margin-top: 200px; } }
 
 .slider {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.1)), to(rgba(37, 55, 87, 0.1))), url("../images/805b0cc475f1da7929d229efa667c335.jpeg");
-  background-image: linear-gradient(0deg, rgba(37, 55, 87, 0.1), rgba(37, 55, 87, 0.1)), url("../images/805b0cc475f1da7929d229efa667c335.jpeg");
+  /* stylelint-disable */
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.1)), to(rgba(37, 55, 87, 0.1))), url("../images/805b0cc475f1da7929d229efa667c335.jpeg ");
+  background-image: linear-gradient(0deg, rgba(37, 55, 87, 0.1), rgba(37, 55, 87, 0.1)), url("../images/805b0cc475f1da7929d229efa667c335.jpeg ");
+  /* stylelint-enable */
   background-size: cover;
   background-position: center;
   width: 1146px;
@@ -527,8 +529,10 @@ button {
             transform: rotate(-65deg);
     left: calc(50% - 80px);
     top: 93px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56CCF2;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56CCF2; }
+    /* stylelint-disable */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2;
+    /* stylelint-enable */ }
   .staff__photo {
     position: absolute;
     width: 64px;
@@ -550,7 +554,7 @@ button {
     height: 100%;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg); }
-  .staff__quote {
+  .staff__text {
     font-style: italic;
     font-size: 14px;
     font-weight: 400; }
@@ -562,8 +566,10 @@ button {
       margin: 31px auto;
       width: 64px;
       height: 2px;
-      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56CCF2;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56CCF2; }
+      /* stylelint-disable */
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2;
+      /* stylelint-enable */ }
   .staff__name {
     font-weight: bold; }
   .staff__position {
@@ -573,16 +579,20 @@ button {
     color: #56ccf2; }
   .staff_2 .staff__decor,
   .staff_2 .staff__about::before {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #FCC304;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304; }
+    /* stylelint-disable */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
+    /* stylelint-enable */ }
   .staff_2 .staff__position {
-    color: #FCC304; }
+    color: #fcc304; }
   .staff_3 .staff__decor,
   .staff_3 .staff__about::before {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #F25656;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F25656; }
+    /* stylelint-disable */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656;
+    /* stylelint-enable */ }
   .staff_3 .staff__position {
-    color: #F25656; }
+    color: #f25656; }
 
 .row {
   display: -webkit-box;
