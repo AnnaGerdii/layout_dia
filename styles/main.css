@@ -330,7 +330,7 @@ button {
 @media (max-width: 1060px) {
   .section_process {
     margin: auto;
-    width: 400px; }
+    width: 100%; }
   .section_features {
     width: 400px;
     text-align: center; } }
